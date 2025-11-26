@@ -1,0 +1,65 @@
+:root {
+    --fundo:rgb(35, 180, 75);
+    --texto: rgb(5, 70, 5);
+    --hover: rgb(135, 0, 20);
+    --fundo-drop: rgb(190, 190, 190);
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.nav-cores {
+    background-color: var(--fundo) !important;
+}
+
+.nav-logo {
+    color:var(--hover) !important;
+    font-weight: bold;
+    font-size: larger;
+    margin: 1%;
+}
+
+.nav-link { 
+    color: var(--texto);
+    border: 5px double;
+    border-color: var(--texto);
+    border-radius: 15px;
+    margin: 2px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.nav-link:hover { 
+    color:var(--hover) !important; 
+    border-color: var(--hover);
+}
+
+.dropdown-menu {
+    background-color: var(--fundo-drop) !important;
+}
+
+.dropdown-item {
+    color: var(--texto) !important;
+    font-size: 1.1em;
+}
+.dropdown-item:hover{
+    color: var(--hover) !important;
+    background-color: var(--fundo);
+    font-weight: bold;
+}
+
+.cor-icone {
+    fill: var(--texto);
+}
+
+.cor-icone:hover {
+    fill: var(--hover);
+}
+
+.navbar-toggler { 
+    border: 5px double; 
+    border-color: var(--hover);
+}
+.navbar-toggler-icon{
+    fill: var(--hover)
+}

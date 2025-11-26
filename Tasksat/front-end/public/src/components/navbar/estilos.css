@@ -1,0 +1,64 @@
+:root {
+    --cinza: rgb(190, 190, 190);
+    --verde1: rgb(180, 225, 180);
+    --verde2:rgb(35, 180, 75);
+    --verde3: rgb(5, 70, 5);
+    --vermelho: rgb(135, 0, 20);
+}
+
+body      {
+    background-color: var(--verde1);
+    color: rgb(0, 0, 0);
+}
+
+.card-group {
+    border: 2px solid var(--cinza);
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.c-upload {
+    max-width: 25%;
+    align-items: center;
+}
+
+.c-form {
+    max-width: 75%;
+    background-color: var(--verde1);
+    padding: 1%;
+}
+
+.fotos {
+    margin: 5%;
+    padding: 5%;
+    max-width: 70%;
+    align-items: center;
+    border: 2px double;
+    border-radius: 5px;
+    border-color: black;
+}
+
+button {
+    background-color: var(--cinza);
+    color: black;
+    border: 2px double;
+    border-radius: 5px;
+    border-color: black;
+    margin: 5%;
+}
+
+button:hover {
+    background-color: var(--vermelho);
+    color: white;
+    border-color: var(--vermelho);
+}
+
+.b-enviar {
+    margin: 0%;
+    margin-top: 1% !important;
+}
+
+.c-cadastro {
+    margin: 1%;
+    padding: 1%;
+}
